@@ -32,7 +32,7 @@ This is an independent concept, not an official Sanofi property. The headline pi
 
 ## Structure
 
-`src/components/` contains Navbar, BrandPreloader, Hero, ResearchFrameScroll, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
+`src/components/` contains Navbar, BrandPreloader, Hero, ResearchFrameScroll, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer, FooterBrandModel and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
 
 ## Verification
 
@@ -52,3 +52,7 @@ The supplied `SANOFI_ASSETS_AND_STRUCTURE.md`, `SANOFI_INDEPENDENT_RESEARCH.md`,
 Brand assets require appropriate rights and corporate/medical review before an official public launch.
 
 The requested BLANK frame-scroll reference was unreachable from this environment. `ResearchFrameScroll` is an original implementation of a scroll-controlled frame, not a copy of the inaccessible component. No wheel handlers or separate scroll containers are used.
+
+The footer credits Siddid Pandey for design and development. Gmail (`qvostwon@gmail.com`), GitHub and LinkedIn links were verified against [github.com/qvost](https://github.com/qvost) on November 13, 2026. These personal links are separate from Sanofi’s corporate social links.
+
+The parallax-model-footer reference was also unreachable. The custom footer model uses layered copies of the supplied SVG logo with scroll-driven depth and rotation, without WebGL or a new runtime dependency. Links remain stationary and reduced-motion users receive a static logo.
