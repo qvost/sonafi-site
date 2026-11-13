@@ -18,7 +18,9 @@ The production output is `dist/`. Deploy it to any static host. `.openai/hosting
 - Cinematic, scroll-responsive partnership hero with pause control and a separate accessible film dialog.
 - Therapy and clinical-phase filters across five curated programs, with mechanisms and registry links.
 - Medicine/condition/trial search, including Command/Ctrl+K.
-- Static research metrics, an AI research overview, patient story previews and official story links.
+- Static research metrics, a pinned research photograph that expands with native scroll, and patient portraits with restrained parallax.
+- The hero transitions into an inset frame while leaving the viewport. Scroll effects reverse naturally and become static layouts for reduced-motion users; the research scene also removes its pin on short screens.
+- Official-logo SVG, PNG and ICO favicons, plus a 180-pixel Apple touch icon.
 - Filtered press room, country selector, persistent light/dark theme and responsive navigation.
 - Native modal focus containment, Escape dismissal, skip navigation, visible focus indicators and reduced-motion support.
 
@@ -30,7 +32,7 @@ This is an independent concept, not an official Sanofi property. The headline pi
 
 ## Structure
 
-`src/components/` contains Navbar, BrandPreloader, Hero, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
+`src/components/` contains Navbar, BrandPreloader, Hero, ResearchFrameScroll, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
 
 ## Verification
 
@@ -48,3 +50,5 @@ The supplied `SANOFI_ASSETS_AND_STRUCTURE.md`, `SANOFI_INDEPENDENT_RESEARCH.md`,
 - [Beyfortus prescribing information](https://products.sanofi.us/beyfortus/beyfortus.pdf)
 
 Brand assets require appropriate rights and corporate/medical review before an official public launch.
+
+The requested BLANK frame-scroll reference was unreachable from this environment. `ResearchFrameScroll` is an original implementation of a scroll-controlled frame, not a copy of the inaccessible component. No wheel handlers or separate scroll containers are used.
