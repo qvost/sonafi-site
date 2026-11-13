@@ -42,7 +42,7 @@ export function BrandPreloader({ onComplete }: { onComplete: () => void }) {
         <motion.div
             className="brand-preloader"
             role="status"
-            aria-label="Loading SONAFI"
+            aria-label="Loading Sanofi"
             initial={{ opacity: 1 }}
             animate={{ opacity: ready ? 0 : 1 }}
             transition={{ duration: reducedMotion ? 0 : 0.35, ease: 'easeOut' }}
@@ -56,7 +56,7 @@ export function BrandPreloader({ onComplete }: { onComplete: () => void }) {
                 transition={{ duration: reducedMotion ? 0 : 0.45, ease: [0.22, 1, 0.36, 1] }}
             >
                 <img src="/sanofi-mark.svg" alt="" width="52" height="52" />
-                <span>SONAFI</span>
+                <span>Sanofi</span>
             </motion.div>
         </motion.div>
     );

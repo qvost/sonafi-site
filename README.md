@@ -14,7 +14,7 @@ The production output is `dist/`. Deploy it to any static host. `.openai/hosting
 ## Experience
 
 - Restrained corporate typography, factual section headings and neutral clinical portfolio cards.
-- A custom opening preloader with the supplied Sanofi brand mark and the requested “SONAFI” text. It waits for essential image/font readiness with a bounded fallback, respects reduced motion, and keeps underlying controls inert until dismissed.
+- A custom opening preloader with the supplied Sanofi brand mark and the requested “Sanofi” text. It waits for essential image/font readiness with a bounded fallback, respects reduced motion, and keeps underlying controls inert until dismissed.
 - Cinematic, scroll-responsive partnership hero with pause control and a separate accessible film dialog.
 - Therapy and clinical-phase filters across five curated programs, with mechanisms and registry links.
 - Medicine/condition/trial search, including Command/Ctrl+K.
