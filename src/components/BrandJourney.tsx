@@ -1,6 +1,26 @@
-import { useRef } from 'react';
-import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
-import { ArrowUpRight, Sparkles } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { imagePath, officialSite } from '../sanofi-content';
-/** The curiosity-to-discovery path draws reversibly as the section enters view. */
-export function BrandJourney() { const ref = useRef<HTMLElement>(null); const { scrollYProgress } = useScroll({ target: ref, offset: ['start 80%', 'end 60%'] }); const length = useTransform(scrollYProgress, [0, .8], [0, 1]); const reduce = useReducedMotion(); return <section className="brand-journey" ref={ref}><div className="section-shell"><div className="section-topline"><span className="eyebrow"><span className="purple-square"/> 02 / A QUESTION CAN CHANGE EVERYTHING</span><Sparkles size={20}/></div><div className="journey-title"><span>What if?</span><div className="journey-path" aria-hidden="true"><span className="journey-dot"/><svg viewBox="0 0 400 80" fill="none"><path d="M0 40 H80 C130 40 110 5 155 5 S210 75 255 75 S285 40 335 40 H400" stroke="currentColor" strokeOpacity=".2"/><motion.path d="M0 40 H80 C130 40 110 5 155 5 S210 75 255 75 S285 40 335 40 H400" stroke="#b97bff" strokeWidth="2" style={{ pathLength: reduce ? 1 : length }}/></svg><span className="journey-dot end"/></div><span className="eureka">Eureka.</span></div><div className="manifesto-layout"><p className="eyebrow muted">CURIOSITY IS OUR STARTING POINT.<br />PEOPLE ARE OUR PURPOSE.</p><div><h2>We are an <em>R&D driven,<br />AI-powered</em> biopharmaceutical<br className="desktop-break"/> company, committed to<br className="desktop-break"/> improving people’s lives.</h2><p>From the first “what if?” to the moment of discovery. The two dots in our identity capture the journey we take every day — turning bold questions into new possibilities.</p></div></div><div className="ai-feature"><div className="ai-image"><img src={imagePath('matt-truppo-ai-in-rd_20261104124542.jpg')} alt="A Sanofi scientist alongside automated laboratory research equipment" loading="lazy"/></div><div className="ai-copy"><span className="eyebrow">HUMAN CURIOSITY. AMPLIFIED.</span><h3>A new intelligence.<br />The same human purpose.</h3><p>From plai, developed with Aily Labs, to collaborations with OpenAI and Formation Bio, AI helps our teams explore new frontiers in drug discovery.</p><a className="text-link" href={`${officialSite}/en/our-science/digital-artificial-intelligence/artificial-intelligence-rd`} target="_blank" rel="noreferrer">Discover AI at Sanofi <ArrowUpRight size={18}/></a><div className="ai-partners"><span>plai</span><span>OpenAI</span><span>Formation Bio</span></div></div></div></div></section>; }
+
+/** Scientific technology and partnerships are presented without ornamental diagrams. */
+export function BrandJourney() {
+    return (
+        <section className="brand-journey">
+            <div className="section-shell">
+                <div className="science-strategy-heading">
+                    <h2>AI in research and development</h2>
+                    <p>Sanofi combines biological research with data science to support the discovery and development of medicines.</p>
+                </div>
+                <div className="ai-feature">
+                    <div className="ai-image">
+                        <img src={imagePath('matt-truppo-ai-in-rd_20261104124542.jpg')} alt="A Sanofi scientist alongside automated laboratory research equipment" loading="lazy" />
+                    </div>
+                    <div className="ai-copy">
+                        <h3>Supporting scientific decisions with AI</h3>
+                        <p>Our teams use plai, developed with Aily Labs, to access operational insights. Separate collaborations with OpenAI and Formation Bio support AI applications in drug development.</p>
+                        <a className="text-link" href={`${officialSite}/en/our-science/digital-artificial-intelligence/artificial-intelligence-rd`} target="_blank" rel="noreferrer">Read about AI at Sanofi <ArrowUpRight size={18} /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}

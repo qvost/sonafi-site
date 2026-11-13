@@ -1,9 +1,32 @@
-import { useEffect, useRef, useState } from 'react';
-import { animate, useInView, useReducedMotion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-function MetricCounter({ value }: {
-    value: number;
-}) { const ref = useRef<HTMLSpanElement>(null); const visible = useInView(ref, { once: true }); const reduced = useReducedMotion(); const [display, setDisplay] = useState(value); useEffect(() => { if (!visible || reduced)
-    return; const controls = animate(0, value, { duration: 1.6, ease: [.22, 1, .36, 1], onUpdate: n => setDisplay(Math.round(n)) }); return () => controls.stop(); }, [visible, value, reduced]); return <span ref={ref}>{display}</span>; }
-/** Figures are an explicitly dated concept snapshot, never a live data feed. */
-export function ScienceMetrics() { return <section className="science-intro section-shell" id="science"><div className="intro-top"><span className="eyebrow"><span className="purple-square"/> THE SCIENCE OF POSSIBILITY</span><p>We chase the miracles of science<br />to improve people’s lives.</p></div><div className="intro-heading"><h2>Big questions.<br /><span className="muted">Extraordinary possibilities.</span></h2><a className="text-link" href="#pipeline">Meet our science <ArrowUpRight size={20}/></a></div><div className="metrics-strip">{[{ n: 5, label: 'Therapeutic areas', sub: 'One relentless ambition' }, { n: 61, label: 'Compounds in development', sub: 'Exploring what comes next' }, { n: 20, label: 'Phase 3 trials', sub: 'Moving science forward' }, { n: 135, label: 'Countries reached', sub: 'Progress without borders' }].map((m, i) => <div className="metric" key={m.label}><span className="metric-index">0{i + 1} /</span><strong><MetricCounter value={m.n}/>{i === 3 && <span className="metric-plus">+</span>}</strong><h3>{m.label}</h3><p>{m.sub}</p></div>)}</div><p className="data-note">Illustrative pitch snapshot · Figures reflect the supplied brief; see the official pipeline for current information.</p></section>; }
+
+const researchMetrics = [
+    { value: '5', label: 'Therapeutic areas' },
+    { value: '61', label: 'Compounds in development' },
+    { value: '20', label: 'Phase 3 trials' },
+    { value: '135+', label: 'Countries reached' },
+];
+
+/** Research figures retain the brief's snapshot disclosure. */
+export function ScienceMetrics() {
+    return (
+        <section className="science-intro section-shell" id="science">
+            <div className="intro-heading">
+                <div>
+                    <h2>Research and development</h2>
+                    <p className="section-description">Developing medicines and vaccines across immunology, neurology, oncology, rare diseases and vaccines.</p>
+                </div>
+                <a className="text-link" href="#pipeline">View our pipeline <ArrowUpRight size={18} /></a>
+            </div>
+            <div className="metrics-strip">
+                {researchMetrics.map(metric => (
+                    <div className="metric" key={metric.label}>
+                        <strong>{metric.value}</strong>
+                        <h3>{metric.label}</h3>
+                    </div>
+                ))}
+            </div>
+            <p className="data-note">Figures from the project brief. Refer to the official pipeline for current information.</p>
+        </section>
+    );
+}

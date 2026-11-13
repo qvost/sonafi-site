@@ -13,22 +13,24 @@ The production output is `dist/`. Deploy it to any static host. `.openai/hosting
 
 ## Experience
 
+- Restrained corporate typography, factual section headings and neutral clinical portfolio cards.
+- A custom opening preloader with the supplied Sanofi brand mark and the requested “SONAFI” text. It waits for essential image/font readiness with a bounded fallback, respects reduced motion, and keeps underlying controls inert until dismissed.
 - Cinematic, scroll-responsive partnership hero with pause control and a separate accessible film dialog.
 - Therapy and clinical-phase filters across five curated programs, with mechanisms and registry links.
 - Medicine/condition/trial search, including Command/Ctrl+K.
-- Scroll-driven scientific discovery path, animated metrics, patient story previews and official story links.
+- Static research metrics, an AI research overview, patient story previews and official story links.
 - Filtered press room, country selector, persistent light/dark theme and responsive navigation.
 - Native modal focus containment, Escape dismissal, skip navigation, visible focus indicators and reduced-motion support.
 
 ## Content boundaries
 
-This is an independent concept, not an official Sanofi property. The stock quote and headline pipeline metrics are illustrative snapshots from the supplied brief, not live feeds. The five programs are a curated set, not a complete pipeline. Regulatory statuses must be reviewed before any official release. No patient quotes or audio interviews were invented. Story dialogs preview real published Sanofi stories and link to their originals. The supplied partnership video runs approximately 15 seconds; the site labels it accordingly.
+This is an independent concept, not an official Sanofi property. The headline pipeline metrics are illustrative snapshots from the supplied brief, not live feeds. The five programs are a curated set, not a complete pipeline. Regulatory statuses must be reviewed before any official release. No patient quotes or audio interviews were invented. Story dialogs preview real published Sanofi stories and link to their originals. The supplied partnership video runs approximately 15 seconds; the site labels it accordingly.
 
 `plai` is attributed to Aily Labs; the separate OpenAI/Formation Bio collaboration is described independently. Beyfortus is identified as an antibody in the prevention portfolio rather than a vaccine. The #4 access ranking is labeled as coming from the pitch brief.
 
 ## Structure
 
-`src/components/` contains Navbar, Hero, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
+`src/components/` contains Navbar, BrandPreloader, Hero, ScienceMetrics, PipelineMatrix, BrandJourney, StoriesGrid, MetricsBento, PressRoom, Footer and dialog/search components. `src/sanofi-content.ts` owns the curated program and story records. `src/styles.css` contains the responsive design system. `scripts/build-tailwind.mjs` compiles the small Tailwind utility set before development and production builds.
 
 ## Verification
 
