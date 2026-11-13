@@ -1,0 +1,1369 @@
+{
+  "meta": {
+    "title": "Homepage",
+    "description": "Sanofi is a research & development-driven, AI-powered healthcare biopharmaceutical company committed to improving lives through innovative medicines & vaccines.",
+    "url": "https://www.sanofi.com/en",
+    "brand": {
+      "name": "Sanofi",
+      "tagline": "Chasing the miracles of science to improve people’s lives",
+      "primaryColor": "#7A00E6",
+      "darkPurple": "#1D1464",
+      "accentPurple": "#9933FF",
+      "neutralDark": "#0A0A0A",
+      "neutralLight": "#F8F8FA",
+      "fontFamily": "Sanofi Sans, sans-serif"
+    }
+  },
+  "navigation": {
+    "type": "default",
+    "searchPageUrl": "/en/search-result",
+    "actions": [
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/media-room",
+          "label": "Media"
+        },
+        "items": [
+          {
+            "type": "nav-item-link",
+            "target": "_self",
+            "href": "https://www.sanofi.com/en/magazine",
+            "label": "Stories",
+            "showOutgoingModal": false
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/media-room/press-releases",
+            "label": "Press Releases"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/media-room/contact",
+            "label": "Contacts"
+          }
+        ]
+      },
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/investors",
+          "label": "Investors"
+        },
+        "items": [
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/investors/news-events",
+              "label": "News and Events"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "target": "_self",
+                "href": "https://www.sanofi.com/en/media-room/press-releases",
+                "label": "News",
+                "showOutgoingModal": false
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/news-events/upcoming-events",
+                "label": "Upcoming Events"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/news-events/past-events",
+                "label": "Past Events"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/investors/sanofi-share-and-adrs",
+              "label": "Shares, ADRs and Bonds"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/stock-chart",
+                "label": "Share Price"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/dividend",
+                "label": "Dividend"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/shares-structure-vote",
+                "label": "Shares, Structure and Vote"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/bonds",
+                "label": "Bonds"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/analyst-coverage",
+                "label": "Analyst Coverage and Vara Consensus"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/share-repurchases",
+                "label": "Share Repurchases"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/investors/sanofi-share-and-adrs/adrs",
+                "label": "American Depositary Receipts"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/investors/financial-reports-and-regulated-information",
+            "label": "Financial Reports and Other Publications"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/investors/environment-social-governance",
+            "label": "Environment, Social, Governance"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/investors/individual-shareholders",
+            "label": "Private Shareholders"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/investors/contacts",
+            "label": "Contacts and Subscription"
+          }
+        ]
+      },
+      {
+        "type": "nav-item-link",
+        "target": "_self",
+        "href": "https://jobs.sanofi.com",
+        "label": "Careers",
+        "showOutgoingModal": true
+      }
+    ],
+    "navigation": [
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/our-company",
+          "label": "Our Company"
+        },
+        "items": [
+          {
+            "type": "nav-item-link",
+            "href": "/en/our-company/our-strategy",
+            "label": "Our Strategy"
+          },
+          {
+            "type": "nav-item-link",
+            "target": "_self",
+            "href": "https://www.sanofi.com/en/chasing-miracles ",
+            "label": "Science with Purpose",
+            "showOutgoingModal": false,
+            "gtmPayload": {
+              "event": "outbound_link",
+              "url": "Our Company nav",
+              "Interaction_type": "CTA_navigation_toCM"
+            }
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-company/governance",
+              "label": "Governance"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/governance/board-of-directors",
+                "label": "Board of Directors"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/governance/executive-committee",
+                "label": "Executive Committee"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/governance/specialist-committees",
+                "label": "Specialist Committees"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-company/sustainability",
+              "label": "Social Impact"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/sustainability/sustainable-and-equitable-access-to-healthcare",
+                "label": "Sustainable and Equitable Access to Healthcare "
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/sustainability/environmental-impact",
+                "label": "Environmental Impact"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/sustainability/health-systems-resilience",
+                "label": "Health Systems’ Resilience"
+              },
+              {
+                "type": "nav-item-node",
+                "self": {
+                  "type": "nav-item-link",
+                  "href": "/en/our-company/sustainability/responsible-business-values",
+                  "label": "Code of Conduct and Responsible Business"
+                },
+                "items": [
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-company/sustainability/responsible-business-values/information-on-dengvaxia",
+                    "label": "Information on Dengvaxia®"
+                  },
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-company/sustainability/responsible-business-values/sodium-valproate",
+                    "label": "Information on Sodium Valproate"
+                  }
+                ]
+              },
+              {
+                "type": "nav-item-node",
+                "self": {
+                  "type": "nav-item-link",
+                  "href": "/en/our-company/sustainability/inclusion",
+                  "label": "Inclusion"
+                },
+                "items": [
+                  {
+                    "type": "nav-item-node",
+                    "self": {
+                      "type": "nav-item-link",
+                      "href": "/en/our-company/sustainability/inclusion/a-million-conversations",
+                      "label": "A Million Conversations"
+                    },
+                    "items": [
+                      {
+                        "type": "nav-item-link",
+                        "href": "/en/our-company/sustainability/inclusion/a-million-conversations/sanofi-nextgen-scholars",
+                        "label": "Sanofi NextGen Scholars"
+                      },
+                      {
+                        "type": "nav-item-link",
+                        "href": "/en/our-company/sustainability/inclusion/a-million-conversations/advisory-group-hub",
+                        "label": "Advisory Group Hub"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-company/sustainability/inclusion/people-powered-change",
+                    "label": "People-Powered Change "
+                  },
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-company/sustainability/inclusion/global-inclusion-board",
+                    "label": "Global Inclusion Board"
+                  },
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-company/sustainability/inclusion/accessibility",
+                    "label": "Accessibility"
+                  }
+                ]
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-company/sustainability/global-health-unit",
+                "label": "Global Health Unit"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/our-company/our-legacy",
+            "label": "Our Legacy"
+          }
+        ]
+      },
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/our-science",
+          "label": "Our Science"
+        },
+        "items": [
+          {
+            "type": "nav-item-link",
+            "href": "/en/our-science/our-pipeline",
+            "label": "Our Pipeline"
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-science/therapeutic-areas",
+              "label": "Therapeutic Areas"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/therapeutic-areas/neurology-research-development",
+                "label": "Neurology"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/therapeutic-areas/oncology-research-development",
+                "label": "Oncology"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/therapeutic-areas/rare-diseases-research-development",
+                "label": "Rare Diseases"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/therapeutic-areas/immunology-research-development",
+                "label": "Immunology"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/therapeutic-areas/vaccines-research-development",
+                "label": "Vaccines"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/our-science/technology-platforms",
+            "label": "Technology Platforms "
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/our-science/research-publications",
+            "label": "Research Publications"
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-science/clinical-trials-and-results",
+              "label": "Clinical Trials & Results"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "target": "_blank",
+                "href": "https://www.sanofi.com/en/clinical-trials",
+                "label": "Find a Clinical Trial",
+                "showOutgoingModal": false
+              },
+              {
+                "type": "nav-item-node",
+                "self": {
+                  "type": "nav-item-link",
+                  "href": "/en/our-science/clinical-trials-and-results/clinical-study-results",
+                  "label": "Clinical Study Results"
+                },
+                "items": [
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-science/clinical-trials-and-results/clinical-study-results/medicines",
+                    "label": "Medicines"
+                  },
+                  {
+                    "type": "nav-item-link",
+                    "href": "/en/our-science/clinical-trials-and-results/clinical-study-results/vaccines",
+                    "label": "Vaccines"
+                  }
+                ]
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/clinical-trials-and-results/investigator-sponsored-studies",
+                "label": "Investigator Sponsored Studies"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/clinical-trials-and-results/diversity-in-clinical-trials",
+                "label": "Diversity in Clinical Trials"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-science/external-innovation",
+              "label": "External Innovation"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/external-innovation/north-america",
+                "label": "External Innovation in North America"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/external-innovation/europe",
+                "label": "External Innovation in Europe"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/external-innovation/china",
+                "label": "External Innovation in China"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-science/digital-artificial-intelligence",
+              "label": "Digital & AI"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/digital-artificial-intelligence/artificial-intelligence-rd",
+                "label": "Artificial Intelligence in R&D "
+              }
+            ]
+          },
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/our-science/manufacturing-and-supply",
+              "label": "Manufacturing and Supply"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/our-science/manufacturing-and-supply/vaccines-manufacturing-and-supply",
+                "label": "Vaccines Manufacturing and Supply"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/patients",
+          "label": "Patients"
+        },
+        "items": [
+          {
+            "type": "nav-item-link",
+            "href": "/en/patients/understanding-diseases-conditions",
+            "label": "Understanding Diseases & Conditions"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/patients/patient-engagement",
+            "label": "Patient Engagement"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/patients/taking-medicines-safely",
+            "label": "Taking Medicines Safely"
+          },
+          {
+            "type": "nav-item-link",
+            "target": "_blank",
+            "href": "https://www.opella.com/en",
+            "label": "Consumer Healthcare (Opella)",
+            "showOutgoingModal": true
+          }
+        ]
+      },
+      {
+        "type": "nav-item-node",
+        "self": {
+          "type": "nav-item-link",
+          "href": "/en/partnering",
+          "label": "Partnering"
+        },
+        "items": [
+          {
+            "type": "nav-item-node",
+            "self": {
+              "type": "nav-item-link",
+              "href": "/en/partnering/partnering-focus-areas",
+              "label": "Partnering Focus Areas"
+            },
+            "items": [
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/china",
+                "label": "China"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/digital",
+                "label": "Digital"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/general-medicines",
+                "label": "General Medicines"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/immunology",
+                "label": "Immunology"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/neuroscience",
+                "label": "Neuroscience"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/oncology",
+                "label": "Oncology"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/out-licensing",
+                "label": "Out-Licensing"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/rare-disease",
+                "label": "Rare Disease"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/technology-platforms",
+                "label": "Technology Platforms"
+              },
+              {
+                "type": "nav-item-link",
+                "href": "/en/partnering/partnering-focus-areas/vaccines",
+                "label": "Vaccines"
+              }
+            ]
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/partnering/meet-the-partnering-team",
+            "label": "Meet the Partnering Team"
+          },
+          {
+            "type": "nav-item-link",
+            "target": "_self",
+            "href": "https://www.sanofi.com/en/our-science/external-innovation",
+            "label": "Meet the External Innovation Team",
+            "showOutgoingModal": false
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/partnering/contact-business-development-team",
+            "label": "Contact Business Development Team"
+          },
+          {
+            "type": "nav-item-link",
+            "href": "/en/partnering/station-f",
+            "label": "Sanofi x STATION F"
+          }
+        ]
+      }
+    ],
+    "headerActions": [],
+    "motionToggle": {
+      "motionActive": false
+    }
+  },
+  "hero": {
+    "cmsComponentType": "hero-banner",
+    "htmlId": "0600d217-cafb-4f9b-a946-8317852eb450",
+    "title": "Homepage",
+    "titleEnhanced": "<p>Tour de France:&nbsp;<br />\nThe <span data-dotcom-style=\"dotcom-font-chaser\" style=\"color:#7a00e6\">Race for Health</span> Is On</p>\n",
+    "variant": "large",
+    "noLazyLoading": false,
+    "backgroundVideo": {
+      "source1": {
+        "url": "/assets/dotcom/campaigns/tour-de-france/video/web-sanofi-tour-de-france-partnership.mp4",
+        "format": "video/mp4"
+      },
+      "source2": {
+        "url": "/assets/dotcom/campaigns/tour-de-france/video/web-sanofi-tour-de-france-partnership.mp4",
+        "format": "video/mp4"
+      },
+      "textToWhite": true,
+      "filter": {
+        "type": "grid-black",
+        "opacity": "0.3"
+      }
+    },
+    "cta": {
+      "type": "internal",
+      "url": "/en/tour-de-france-major-partner-sponsor-white-jersey-sports-healthcare",
+      "label": "Learn more",
+      "target": "_self",
+      "title": "Sanofi x Tour de France: The Race for Health Is On",
+      "icon": "fasArrowRight",
+      "mgnlId": "a920eaf5-36b9-4958-bc87-42c63ed3d727"
+    },
+    "textToWhite": true,
+    "pageHeaderType": "current",
+    "borderRadius": 1
+  },
+  "sections": [
+    {
+      "id": "83a1e34d-88ce-4b5b-96fa-961ac4579db9",
+      "type": "content-block",
+      "title": "Major Partner of the Tour de France",
+      "subtitle": null,
+      "text": "<p>The Tour de France is measured in every climb, every turn, every kilometer and the drive to keep moving forward. In 2027, we will take to the roads as a major partner of the Tour de France and the Tour de France Femmes avec Zwift and the sponsor of the white jersey for both men and women. For us, the race for health is on.</p>\n",
+      "media": {
+        "image": "/assets/dotcom/campaigns/tour-de-france/images/sanofi-white-jersey-tour-de-france_20261002084139.jpg",
+        "imageAlt": "White jersey 3D mockup including stripes of purple and the sanofi logo. ",
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "internal",
+        "url": "/en/tour-de-france-major-partner-sponsor-white-jersey-sports-healthcare",
+        "label": "Learn more about Sanofi's partnership with the Tour de France ",
+        "target": "_self",
+        "title": "Sanofi x Tour de France: The Race for Health Is On",
+        "icon": "fasArrowRight",
+        "mgnlId": "afa4f134-1291-435f-839b-d6ff217e40c6"
+      },
+      "articles": null,
+      "cards": null,
+      "items": null
+    },
+    {
+      "id": "38a65a1a-31d7-480c-893f-45c6845e77cb",
+      "type": "articles-type-block",
+      "title": "Our Latest Articles",
+      "subtitle": null,
+      "text": null,
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "internal",
+        "url": "/en/magazine",
+        "label": "Read our latest articles",
+        "target": "_self",
+        "title": "Stories",
+        "icon": "fasArrowRight",
+        "mgnlId": "4f4080b0-96ed-4eb9-96c8-514fa1d93ba0"
+      },
+      "articles": [
+        {
+          "title": "Trust Is the Real Measure of Success for AI in R&D",
+          "topic": "AI in Healthcare",
+          "headingLevel": "h2",
+          "variation": "content-card",
+          "date": "2026-11-09T00:00:00.000Z",
+          "image": {
+            "image": "/assets/dotcom/content-app/articles/our-science/2026/trust-is-the-real-measure-of-success-for-ai-in-rd/matt-truppo-ai-in-rd_20261104124542.jpg",
+            "alt": "A Sanofi scientist in a lab coat, standing in front of automated laboratory research equipment."
+          },
+          "cta": {
+            "type": "article",
+            "url": "/en/magazine/ai-in-healthcare/trust-is-the-real-measure-of-success-for-ai-in-research-and-development",
+            "label": "Read the article",
+            "target": "_self",
+            "title": "Trust Is the Real Measure of Success for AI in R&D",
+            "icon": "fasArrowRight",
+            "mgnlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-cc79e9f6-6f72-4a6b-aed5-aa0a313bb671-link",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "38a65a1a-31d7-480c-893f-45c6845e77cb-cc79e9f6-6f72-4a6b-aed5-aa0a313bb671-link 38a65a1a-31d7-480c-893f-45c6845e77cb-cc79e9f6-6f72-4a6b-aed5-aa0a313bb671-heading"
+          },
+          "htmlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-cc79e9f6-6f72-4a6b-aed5-aa0a313bb671"
+        },
+        {
+          "title": "Why It’s Time to Rethink Multiple Sclerosis",
+          "topic": "Our Science",
+          "headingLevel": "h2",
+          "variation": "content-card",
+          "date": "2026-11-04T00:00:00.000Z",
+          "image": {
+            "image": "/assets/dot-shared/images/research-development/rd-belgium-elke-blansaer-chakib-borsali-sanofi_20260805081213.jpg",
+            "alt": "Two scientists wearing safety goggles and gloves, using a pipette to transfer a sample into an analysis plate."
+          },
+          "cta": {
+            "type": "article",
+            "url": "/en/magazine/our-science/why-its-time-to-rethink-multiple-sclerosis",
+            "label": "Read the article",
+            "target": "_self",
+            "title": "Why It’s Time to Rethink Multiple Sclerosis",
+            "icon": "fasArrowRight",
+            "mgnlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-e86fa339-2e74-43c8-92be-6720254e5882-link",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "38a65a1a-31d7-480c-893f-45c6845e77cb-e86fa339-2e74-43c8-92be-6720254e5882-link 38a65a1a-31d7-480c-893f-45c6845e77cb-e86fa339-2e74-43c8-92be-6720254e5882-heading"
+          },
+          "htmlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-e86fa339-2e74-43c8-92be-6720254e5882"
+        },
+        {
+          "title": "Alert Instead of Alarm: Shifting the Timing and Impact of Type 1 (T1D) Diabetes Diagnosis",
+          "topic": "Our Science",
+          "headingLevel": "h2",
+          "variation": "content-card",
+          "date": "2026-11-02T00:00:00.000Z",
+          "image": {
+            "image": "/assets/dotcom/content-app/articles/our-science/2026/alert-instead-of-alarm-shifting-the-timing-and-impact-of-type-1-t1d-diabetes-diagnosis/sanofi-t1d-beta-cells-hero_20261027144014.jpg",
+            "alt": "Abstract illustration of purple spherical shapes representing beta cells in pancreatic tissue."
+          },
+          "cta": {
+            "type": "article",
+            "url": "/en/magazine/our-science/alert-instead-of-alarm-shifting-the-timing-and-impact-of-type-1-t1d-diabetes-diagnosis",
+            "label": "Read the article",
+            "target": "_self",
+            "title": "Alert Instead of Alarm: Shifting the Timing and Impact of Type 1 (T1D) Diabetes Diagnosis",
+            "icon": "fasArrowRight",
+            "mgnlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-049ec61f-79e8-44c5-93f0-c0d5197696c5-link",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "38a65a1a-31d7-480c-893f-45c6845e77cb-049ec61f-79e8-44c5-93f0-c0d5197696c5-link 38a65a1a-31d7-480c-893f-45c6845e77cb-049ec61f-79e8-44c5-93f0-c0d5197696c5-heading"
+          },
+          "htmlId": "38a65a1a-31d7-480c-893f-45c6845e77cb-049ec61f-79e8-44c5-93f0-c0d5197696c5"
+        }
+      ],
+      "cards": null,
+      "items": null
+    },
+    {
+      "id": "0da62ce0-dc06-4af7-a5ac-86c3aef06b7d",
+      "type": "content-block",
+      "title": "The Power of Chasing A Dream",
+      "subtitle": null,
+      "text": "<p>Every day, we chase the miracles of science to improve people&rsquo;s lives. We apply our deep understanding of the immune system to develop breakthrough innovations in medicines and vaccines so you can focus on what matters most, chasing your dreams. If you&rsquo;re chasing your dreams, remember... you&rsquo;re not alone.&nbsp;<strong>We&rsquo;re right beside you</strong></p>\n\n<p>&nbsp;</p>\n",
+      "media": {
+        "image": "/assets/dot-shared/campaigns/chasing-miracles-brand-campaign/videos/celine-multiple-sclerosis-surf-hero-movie-thumbnail_20251027154114.jpg",
+        "imageAlt": "Two women in black wetsuits standing on a beach with a surfboard, ready for surfing",
+        "backgroundVideo": null
+      },
+      "cta": null,
+      "articles": null,
+      "cards": null,
+      "items": null
+    },
+    {
+      "id": "b901fa86-2a41-448a-9246-49bd2a8d10e3",
+      "type": "card-list",
+      "title": "People Stories",
+      "subtitle": null,
+      "text": "<h4>We&rsquo;re proud to&nbsp;spotlight&nbsp;those&nbsp;who inspire us to keep going further in the work we do.</h4>\n",
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "internal",
+        "url": "/en/chasing-miracles/people-stories",
+        "label": "See all stories",
+        "target": "_self",
+        "title": "People Stories",
+        "icon": "fasArrowRight",
+        "mgnlId": "d8d2570a-eeb5-447d-ae78-d00c37e8ea4c"
+      },
+      "articles": null,
+      "cards": [
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "731852c6-b9ae-4210-97ac-c9340895f7d8",
+          "htmlDir": "ltr",
+          "title": "Céline, living with secondary progressive multiple sclerosis",
+          "description": "<p>France</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/chasing-miracles/people-stories/celine-story-multiple-sclerosis",
+            "label": "Read more",
+            "target": "_self",
+            "title": "The Unwritten Script: How Céline’s \"Impossible\" Became Her Greatest Wave Yet  ",
+            "icon": "fasArrowRight",
+            "mgnlId": "77255f33-7aa2-4b7a-8914-af3ca8e481ec",
+            "gtmPayload": {
+              "event": "outbound_link",
+              "url": "Chasing miracles people stories pages",
+              "Interaction_type": "CTA_peoplestories_toCM_cards_homepage"
+            }
+          },
+          "image": {
+            "image": "/assets/dot-shared/campaigns/chasing-miracles-brand-campaign/patients/celine-para-surfer-main_20251028131729.jpg",
+            "alt": "A woman wearing a black wetsuit holds a surfboard under blue skies and sunshine while looking out to the horizon with a hopeful and determined expression.​"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "f1087069-666a-420d-abd0-a7e5973e477a",
+          "htmlDir": "ltr",
+          "title": "Xavier, living with autoimmune type 1 diabetes",
+          "description": "<p>US</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/chasing-miracles/people-stories/xavier-story-autoimmune-type-one-diabetes",
+            "label": "Read more",
+            "target": "_self",
+            "title": "How a Teenager with Autoimmune Type 1 Diabetes Turned His Life into a Story Worth Telling ",
+            "icon": "fasArrowRight",
+            "mgnlId": "24d4ce49-cf18-4aff-b5c0-819cf0654028",
+            "gtmPayload": {
+              "event": "outbound_link",
+              "url": "Chasing miracles people stories pages",
+              "Interaction_type": "CTA_peoplestories_toCM_cards_homepage"
+            }
+          },
+          "image": {
+            "image": "/assets/dot-shared/campaigns/chasing-miracles-brand-campaign/patients/xavier-video-thumbnail_20251028131835.jpg",
+            "alt": "A man wearing glasses and a blue jacket operates a video camera and looks focused while filming, his hand is outstretched in front of him as he gestures. ​"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "e2a2e341-fbf0-493f-9cc4-c20049dcfddb",
+          "htmlDir": "ltr",
+          "title": "Wei, Sanofi",
+          "description": "<p>China</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/chasing-miracles/people-stories/wei-story-artificial-intelligence-sanofi-china",
+            "label": "Read more",
+            "target": "_self",
+            "title": "The Algorithm of Ambition: Wei's Pursuit of Strength, In the Lab and In Life ",
+            "icon": "fasArrowRight",
+            "mgnlId": "bb58f96e-90b8-409a-bcab-886a1b86425f",
+            "gtmPayload": {
+              "event": "outbound_link",
+              "url": "Chasing miracles people stories pages",
+              "Interaction_type": "CTA_peoplestories_toCM_cards_homepage"
+            }
+          },
+          "image": {
+            "image": "/assets/dot-shared/campaigns/chasing-miracles-brand-campaign/scientists/wei-artificial-intelligence-main_20251028131631.jpg",
+            "alt": "A woman in a white Sanofi lab coat and company badge outside of a building, moving forward while confidently and positively looking ahead. Several people are running alongside her in the background.​"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        }
+      ],
+      "items": null
+    },
+    {
+      "id": "4ae74b3f-b1c2-40e0-99c9-fb6d697b031c",
+      "type": "focused-text",
+      "title": null,
+      "subtitle": null,
+      "text": "<p>We are an <span data-dotcom-style=\"dotcom-font-chaser\" style=\"color:#7a00e6\">R&amp;D driven</span>, <span data-dotcom-style=\"dotcom-font-chaser\" style=\"color:#7a00e6\">AI-powered</span> biopharmaceutical company committed to <span data-dotcom-style=\"dotcom-font-chaser\" style=\"color:#7a00e6\">improving people&rsquo;s lives</span> and <span data-dotcom-style=\"dotcom-font-chaser\" style=\"color:#7a00e6\">delivering compelling growth</span>.&nbsp;</p>\n",
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": null,
+      "articles": null,
+      "cards": null,
+      "items": null
+    },
+    {
+      "id": "7ed14ec0-dd11-4afe-868a-05c8ad306ea1",
+      "type": "card-list",
+      "title": "About Us",
+      "subtitle": null,
+      "text": null,
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": null,
+      "articles": null,
+      "cards": [
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "db35c7c3-239b-43ec-bf0f-6b238ca284ad",
+          "title": "Who We Are",
+          "description": "<p>We are an R&amp;D driven,<br />\nAI-powered biopharma company committed to improving people&rsquo;s lives and creating compelling growth.</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/our-company/our-strategy",
+            "label": "Read more",
+            "target": "_self",
+            "title": "Our Strategy",
+            "icon": "fasArrowRight",
+            "mgnlId": "d1248aa5-99fc-4b19-b461-e314416a731b"
+          },
+          "image": {
+            "image": "/assets/dotcom/pages/images/our-company/our-strategy/herobanner-strategy-4_20230515142620.jpg"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "8c3e5209-5f23-4a15-9f20-a3b242104505",
+          "title": "Our Science ",
+          "description": "<p>We turn the impossible into possible.</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/our-science",
+            "label": "Read more",
+            "target": "_self",
+            "title": "Our science",
+            "icon": "fasArrowRight",
+            "mgnlId": "21084ca9-91d8-4549-ac41-c9d36cd25642"
+          },
+          "image": {
+            "image": "/assets/dotcom/pages/images/our-science/herobanner-our-science-current-2_20230515141246.jpg"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "76f28420-cf44-4b77-b205-29ab93cc73c6",
+          "title": "Patients",
+          "description": "<p>We chase the miracles of science to improve people&rsquo;s lives.</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/patients",
+            "label": "Read more",
+            "target": "_self",
+            "title": "Patients",
+            "icon": "fasArrowRight",
+            "mgnlId": "348956a6-5f4b-4a9e-aa9f-07db6c39d0e7"
+          },
+          "image": {
+            "image": "/assets/dot-shared/images/patients/alizee-agier-and-father-type-1-diabetes-france_20251229100803.jpg",
+            "alt": "Alizée, autoimmune T1D, and her family, France"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "a11335b5-ce23-4641-ba37-4970b8fcc96d",
+          "title": "Sustainability",
+          "description": "<p>We are at the forefront of addressing some of the world&#39;s most critical challenges, striving to create a healthier, more resilient future.</p>\n",
+          "cta": {
+            "type": "internal",
+            "url": "/en/our-company/sustainability",
+            "label": "Read more",
+            "target": "_self",
+            "title": "Social Impact",
+            "icon": "fasArrowRight",
+            "mgnlId": "d8a8fb37-7477-4489-93d9-7d8c046e5b6d"
+          },
+          "image": {
+            "image": "/assets/dotcom/shared/images/environment/net-zero-towards-2045_20250327170211.jpg",
+            "alt": "An straight down drone view of Garrarus beach, Waterford Ireland, with sea green waters, coarse sandy beach, and a rocky coast"
+          },
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        }
+      ],
+      "items": null
+    },
+    {
+      "id": "6e36f8ac-bcf0-46be-9f5f-ecfe2bff6307",
+      "type": "card-list",
+      "title": "Our Pipeline",
+      "subtitle": null,
+      "text": null,
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "internal",
+        "url": "/en/our-science/our-pipeline",
+        "label": "Explore our pipeline",
+        "target": "_self",
+        "title": "Our Pipeline",
+        "icon": "fasArrowRight",
+        "mgnlId": "ba1da68a-1701-4e3b-b50f-a0b017f66c9d"
+      },
+      "articles": null,
+      "cards": [
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "79b55491-ac9e-4221-a6e9-501f4a9e5925",
+          "title": "5",
+          "description": "<p>Therapeutic areas</p>\n",
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "a39d5e46-f501-403d-88dd-3ec1ed3dced0",
+          "title": "61",
+          "description": "<p>Compounds in clinical development</p>\n",
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        },
+        {
+          "cmsComponentType": "card",
+          "variation": "content-card",
+          "headingLevel": "h2",
+          "htmlId": "8835834d-8105-40a0-a5ab-3b5ac9c8f245",
+          "title": "20",
+          "description": "<p>Clinical trials in phase 3</p>\n",
+          "display": {},
+          "ctaVariant": "standalone",
+          "borderRadius": 1,
+          "imageRatio": "16/9",
+          "imageMargin": false
+        }
+      ],
+      "items": null
+    },
+    {
+      "id": "4aaa5cea-db36-40dc-a265-c6307fd1c4e1",
+      "type": "content-block",
+      "title": "Pursue Progress. Discover Extraordinary. ",
+      "subtitle": null,
+      "text": "<p>Better is out there. Better medications, better outcomes, better science. It&#39;s all down to people like you, from different backgrounds, in different locations, doing different roles. Take the most important step in your career: help us change the lives of people, families and communities for the better.</p>\n",
+      "media": {
+        "image": "/assets/dotcom/pages/images/career/career-portal-thumbnail_20240515151016.jpg",
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "external",
+        "url": "https://jobs.sanofi.com/en",
+        "label": "Explore Career Opportunities ",
+        "target": "_blank",
+        "title": "https://jobs.sanofi.com/en",
+        "icon": "fasArrowUpRightFromSquare",
+        "showOutgoingModal": true,
+        "mgnlId": "4136e8aa-b60b-4a2a-9d85-1b635d359b48"
+      },
+      "articles": null,
+      "cards": null,
+      "items": null
+    },
+    {
+      "id": "6ffa356b-d147-499c-9f90-082d3a59a5b1",
+      "type": "press-releases-list",
+      "title": "Our Latest Press Releases",
+      "subtitle": null,
+      "text": null,
+      "media": {
+        "image": null,
+        "imageAlt": null,
+        "backgroundVideo": null
+      },
+      "cta": {
+        "type": "internal",
+        "url": "/en/media-room/press-releases",
+        "label": "See all press releases",
+        "target": "_self",
+        "title": "Press Releases",
+        "icon": "fasArrowRight",
+        "mgnlId": "e0f30c15-7391-40da-8391-afb60eb5160f"
+      },
+      "articles": null,
+      "cards": null,
+      "items": [
+        {
+          "date": "2026-10-30T06:30:00.000Z",
+          "title": "Press Release: Q3 2026: double-digit growth in sales and business EPS FY 2026: guidance upgraded",
+          "category": "press-release",
+          "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf",
+          "file": {
+            "link": "/assets/dotcom/pressreleases/2026/2026-10-30-06-30-00-3392028-en.pdf",
+            "label": "Download PDF",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-file 6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-heading",
+            "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-file"
+          },
+          "cta": {
+            "type": "pressrelease",
+            "url": "/en/media-room/press-releases/2026/2026-10-30-06-30-00-3392028",
+            "label": "Read the Press Release",
+            "target": "_self",
+            "title": "Press Release: Q3 2026: double-digit growth in sales and business EPS FY 2026: guidance upgraded",
+            "icon": "fasArrowRight",
+            "mgnlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-cta",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-cta 6ffa356b-d147-499c-9f90-082d3a59a5b1-a9b8b024-5c63-4d07-8368-f4a1a03302bf-heading"
+          }
+        },
+        {
+          "date": "2026-10-20T12:00:00.000Z",
+          "title": "Media Update: UEG Week: Sanofi and Teva’s duvakitug maintained long-term positive outcomes in new phase 2b data for ulcerative colitis and Crohn’s disease",
+          "category": "media-update",
+          "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d",
+          "file": {
+            "link": "/assets/dotcom/pressreleases/2026/2026-10-20-12-00-00-3384293-en.pdf",
+            "label": "Download PDF",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-file 6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-heading",
+            "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-file"
+          },
+          "cta": {
+            "type": "pressrelease",
+            "url": "/en/media-room/press-releases/2026/2026-10-20-12-00-00-3384293",
+            "label": "Read the Media Update",
+            "target": "_self",
+            "title": "Media Update: UEG Week: Sanofi and Teva’s duvakitug maintained long-term positive outcomes in new phase 2b data for ulcerative colitis and Crohn’s disease",
+            "icon": "fasArrowRight",
+            "mgnlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-cta",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-cta 6ffa356b-d147-499c-9f90-082d3a59a5b1-9895a1d1-e332-416c-b423-5530ea17214d-heading"
+          }
+        },
+        {
+          "date": "2026-10-19T10:30:00.000Z",
+          "title": "Press Release: Sanofi breaks ground on new state-of-the-art insulin manufacturing facility in Germany",
+          "category": "press-release",
+          "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30",
+          "file": {
+            "link": "/assets/dotcom/pressreleases/2026/2026-10-19-10-30-00-3383205-en.pdf",
+            "label": "Download PDF",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-file 6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-heading",
+            "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-file"
+          },
+          "cta": {
+            "type": "pressrelease",
+            "url": "/en/media-room/press-releases/2026/2026-10-19-10-30-00-3383205",
+            "label": "Read the Press Release",
+            "target": "_self",
+            "title": "Press Release: Sanofi breaks ground on new state-of-the-art insulin manufacturing facility in Germany",
+            "icon": "fasArrowRight",
+            "mgnlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-cta",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-cta 6ffa356b-d147-499c-9f90-082d3a59a5b1-2f609698-f947-45cc-9811-92a5bb9d1f30-heading"
+          }
+        },
+        {
+          "date": "2026-10-16T06:35:00.000Z",
+          "title": "Press release: Sanofi to become major partner of the Tour de France",
+          "category": "press-release",
+          "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a",
+          "file": {
+            "link": "/assets/dotcom/pressreleases/2026/2026-10-16-06-35-00-3382260-en.pdf",
+            "label": "Download PDF",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-file 6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-heading",
+            "htmlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-file"
+          },
+          "cta": {
+            "type": "pressrelease",
+            "url": "/en/media-room/press-releases/2026/2026-10-16-06-35-00-3382260",
+            "label": "Read the Press Release",
+            "target": "_self",
+            "title": "Press release: Sanofi to become major partner of the Tour de France",
+            "icon": "fasArrowRight",
+            "mgnlId": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-cta",
+            "ariaType": "aria-labelledby:link-label+component-heading",
+            "ariaLabelledBy": "6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-cta 6ffa356b-d147-499c-9f90-082d3a59a5b1-9d59f156-0b69-4de0-85cc-a77ffbc4959a-heading"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "type": "default",
+    "copyright": [
+      "© Sanofi 2004-2026 - All rights reserved"
+    ],
+    "informations": [
+      {
+        "type": "nav-item-link",
+        "target": "_self",
+        "href": "https://www.sanofi.com/en/global-privacy",
+        "label": "Global Privacy",
+        "showOutgoingModal": false
+      },
+      {
+        "type": "nav-item-link",
+        "href": "/en/contact",
+        "label": "Contact"
+      },
+      {
+        "type": "nav-item-link",
+        "target": "_self",
+        "href": "https://www.sanofi.com/en/terms-of-use",
+        "label": "Terms of Use",
+        "showOutgoingModal": false
+      },
+      {
+        "type": "nav-item-link",
+        "href": "/en/data-privacy",
+        "label": "Cookies Policy"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "/en/publications",
+        "label": "Our publications"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "/en/directory",
+        "label": "Directory"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "/en/sitemap",
+        "label": "Sitemap"
+      },
+      {
+        "type": "nav-item-link",
+        "target": "_self",
+        "href": "https://www.sanofi.com/en/accessibility",
+        "label": "Accessibility Statement: Partial Compliance",
+        "showOutgoingModal": false
+      },
+      {
+        "type": "nav-item-link",
+        "target": "_blank",
+        "href": "https://www.codeofconduct.sanofi/",
+        "label": "Code of Conduct",
+        "showOutgoingModal": true
+      }
+    ],
+    "social": [
+      {
+        "type": "nav-item-link",
+        "href": "https://www.linkedin.com/company/sanofi",
+        "label": "Go to Sanofi on Linkedin",
+        "title": "Sanofi on Linkedin",
+        "icon": "linkedin",
+        "domain": "external"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "https://twitter.com/sanofi",
+        "label": "Go to Sanofi on Twitter",
+        "title": "Sanofi on Twitter",
+        "icon": "twitter",
+        "domain": "external"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "https://www.instagram.com/sanofi/",
+        "label": "Go to Sanofi on Instagram",
+        "title": "Sanofi on Instagram",
+        "icon": "instagram",
+        "domain": "external"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "https://www.facebook.com/Sanofi",
+        "label": "Go to Sanofi on Facebook",
+        "title": "Sanofi on Facebook",
+        "icon": "facebook",
+        "domain": "external"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "https://www.tiktok.com/@sanofi",
+        "label": "Go to Sanofi on TikTok",
+        "title": "Sanofi on TikTok",
+        "icon": "tiktok",
+        "domain": "external"
+      },
+      {
+        "type": "nav-item-link",
+        "href": "https://www.youtube.com/@sanofi",
+        "label": "Go to Sanofi on Youtube",
+        "title": "Sanofi on Youtube",
+        "icon": "youtube",
+        "domain": "external"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "label": "Therapeutic areas",
+      "value": "5",
+      "description": "Immunology, Neurology, Oncology, Rare Diseases, Vaccines"
+    },
+    {
+      "label": "Compounds in development",
+      "value": "61",
+      "description": "Clinical development pipeline"
+    },
+    {
+      "label": "Phase 3 clinical trials",
+      "value": "20",
+      "description": "Late-stage breakthrough therapies"
+    },
+    {
+      "label": "Countries operated",
+      "value": "135",
+      "description": "Global healthcare footprint"
+    }
+  ]
+}

@@ -2,10 +2,10 @@ node_modules
 dist
 *.log
 *.tsbuildinfo
-.openai/ssr-check.cjs
+.openai/
 fetched_assets/
-sanofi_*.json
 sanofi_home.html
+sanofi_decoded_data.json
+sanofi_page_complete.json
 sitemap.en.xml
 svg_*.svg
-PITCH_PROMPT_GPT6_1_SOL.md
